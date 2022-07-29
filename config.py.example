@@ -1,0 +1,5 @@
+config = {'RPC_URL': 'http://archivenoderpc.com',
+          'FLASK_SECRET': '1hvteUAWQMSbdyLuLuTOSYBRLKrxgILv',
+
+
+}
