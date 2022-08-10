@@ -171,7 +171,7 @@ def get_quantile(contract_addr):
         points = 2
     elif 1 - rank < 0.5:
         points = 1
-    rank = f'{ranked_df2.loc[index].num_tx:.2%}'
+    rank = f'{ranked_df2.loc[addr_index].num_tx:.2%}'
     return rank, points
 
 
